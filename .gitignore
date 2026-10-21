@@ -1,0 +1,48 @@
+# Unity generates these locally when the project opens.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE and machine-specific files.
+/.vs/
+/.idea/
+/.vscode/
+/.codex/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+
+# Generated QA captures and local tool output.
+/Previews/*
+!/Previews/.gitkeep
+/*.png
+/*.log
+/*.tmp
+/*.bak
+
+# Local authentication and signing material.
+.env
+.env.*
+.npmrc
+*.keystore
+*.jks
+*.pfx
+*.p12
+*.pem
+

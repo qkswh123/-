@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c2dde68aef21249bf288d7bcb192ca, type: 3}
+  m_Name: ClimbGameSettings
+  m_EditorClassIdentifier: Assembly-CSharp::ClimbGameSettings
+  animals:
+  - displayName: "\uC544\uAE30 \uD3AD\uADC4"
+    prefab: {fileID: 8735078124526965568, guid: 66186e3c9a0eae840bf1ea0506972571, type: 3}
+    isTemporary: 0
+  - displayName: "\uAF2C\uB9C8 \uACE0\uC591\uC774"
+    prefab: {fileID: 1723217118960095443, guid: 683c16d1d1eb7f042bbef3afce1af887, type: 3}
+    isTemporary: 0
+  - displayName: "\uC0AC\uB791 \uC624\uB9AC"
+    prefab: {fileID: 7040423110116410890, guid: 921dcb58ffefaca47b51f3dbf7956b18, type: 3}
+    isTemporary: 0
+  - displayName: "\uBABD\uC2E4 \uC591"
+    prefab: {fileID: 3451571445593135760, guid: 91add39f964a57243abd5f4b7a2df08c, type: 3}
+    isTemporary: 0
+  - displayName: "\uAF43 \uC694\uC815"
+    prefab: {fileID: 409154093973186547, guid: e5a9f7344b46c2d4097c1afe9f259064, type: 3}
+    isTemporary: 0
+  - displayName: "\uAF2C\uB9C8 \uB450\uB354\uC9C0"
+    prefab: {fileID: 2421092623198410670, guid: b4d9e849bf62d1845863275fe8fd760d, type: 3}
+    isTemporary: 0
+  - displayName: "\uC6F0\uC2DC \uCF54\uAE30"
+    prefab: {fileID: 2465013516880225418, guid: 902a7d3ee9abb3249a2c845df6fc7ccb, type: 3}
+    isTemporary: 0
+  - displayName: "\uAF2C\uB9C8 \uD478\uB450"
+    prefab: {fileID: 2933241151639857083, guid: 638881de0aaf0844cb1420d6236a7472, type: 3}
+    isTemporary: 0
+  - displayName: "\uC544\uAE30 \uD37C\uADF8"
+    prefab: {fileID: 4627442598105362848, guid: cd4f086e263562d4bb77da7d84e645a1, type: 3}
+    isTemporary: 0
+  - displayName: "\uAF2C\uB9C8 \uCC38\uC0C8"
+    prefab: {fileID: 2653979023360151904, guid: d3a27e5cb2aba1d4eb2532fad752cbbc, type: 3}
+    isTemporary: 0
+  - displayName: "\uCE58\uC640\uC640"
+    prefab: {fileID: 2698121313224555271, guid: d3558bb8af792404bac0687b9574bc5d, type: 3}
+    isTemporary: 0
+  - displayName: "\uB3C4\uB9C8\uBC40"
+    prefab: {fileID: 1791119430688715549, guid: 8ff58256c5c02cc4ab650aeaaa87392f, type: 3}
+    isTemporary: 0
+  - displayName: "\uBBF9\uC2A4 \uAC15\uC544\uC9C0"
+    prefab: {fileID: 3271942084074931339, guid: 0bf207a4fadd2114f94d4a4cb2e257ae, type: 3}
+    isTemporary: 0
+  - displayName: "\uC0AC\uD5A5\uC950"
+    prefab: {fileID: 8236753131443167706, guid: 9a0961a05f53e354c8b79619687f0095, type: 3}
+    isTemporary: 0
+  - displayName: "\uC170\uD37C\uB4DC"
+    prefab: {fileID: 8390811339359309188, guid: 646f040ff3f1c9a42865700d87abc36d, type: 3}
+    isTemporary: 0
+  - displayName: "\uCF5C\uB85C\uBD80\uC2A4 \uC6D0\uC22D\uC774"
+    prefab: {fileID: 3980594631695003066, guid: 6d4a630d3304cc24296f1dbfd31c7b0b, type: 3}
+    isTemporary: 0
+  - displayName: "\uC624\uC9D5\uC5B4"
+    prefab: {fileID: 4815643460171216779, guid: c54c1db97ec5ce1468b25618e3664abc, type: 3}
+    isTemporary: 0
+  - displayName: "\uCCAD\uC5B4"
+    prefab: {fileID: 8040263281793664912, guid: 71e8b951bf802cf44866004fd7cf7324, type: 3}
+    isTemporary: 0
+  - displayName: "\uD0C0\uC774\uD310 \uBC40"
+    prefab: {fileID: 1640231448493460082, guid: 848566fc140fec649aa080d70db433f6, type: 3}
+    isTemporary: 0
+  - displayName: "\uC5D0\uADF8"
+    prefab: {fileID: 7303683582983607334, guid: a3a6e4be5df645b4c8fe4d98d675fd80, type: 3}
+    isTemporary: 0
