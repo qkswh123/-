@@ -101,7 +101,7 @@ public sealed class ClimbLevel : MonoBehaviour
     private void OnGUI()
     {
         if (!Application.isPlaying || settings == null || climber == null) return;
-        if (uiFont == null) uiFont = Font.CreateDynamicFontFromOSFont(new[] { "Malgun Gothic", "Arial" }, 18);
+        if (uiFont == null) uiFont = Font.CreateDynamicFontFromOSFont(new[] { "Malgun Gothic", "Apple SD Gothic Neo", "AppleGothic", "Noto Sans CJK KR", "Arial" }, 18);
         var oldMatrix = GUI.matrix;
         var oldFont = GUI.skin.font;
         GUI.skin.font = uiFont;
@@ -116,17 +116,13 @@ public sealed class ClimbLevel : MonoBehaviour
         GUI.Label(new Rect(26, 19, 405, 29), "레벨 " + levelNumber + " / 20  ·  " + environmentName, title);
         GUI.Label(new Rect(26, 50, 405, 25), animal?.displayName + "  ·  등반 " + climber.CurrentStep + " / " + Goal + "    ← / →", label);
         GUI.Label(new Rect(26, 77, 365, 26), temporary ? "추가 동물 등록 전: 임시 동물 배정" : "다음 계단이 있는 방향으로 눌러주세요", label);
-        var pointBackground = GUI.color;
-        GUI.color = new Color(0.06f, 0.1f, 0.15f, 0.96f);
-        GUI.DrawTexture(new Rect(455, 12, 225, 72), Texture2D.whiteTexture);
-        GUI.color = pointBackground;
-        GUI.Box(new Rect(455, 12, 225, 72), "");
+        GUI.Box(new Rect(14, 410, 225, 72), "");
         var pointStyle = new GUIStyle(title);
         pointStyle.normal.textColor = new Color(1f, 0.86f, 0.3f);
-        GUI.Label(new Rect(470, 20, 200, 30), "코인 포인트  " + points, pointStyle);
+        GUI.Label(new Rect(29, 418, 200, 30), "코인 포인트  " + points, pointStyle);
         var rewardStyle = new GUIStyle(label);
         rewardStyle.normal.textColor = new Color(1f, 0.94f, 0.65f);
-        GUI.Label(new Rect(470, 51, 200, 25), Time.unscaledTime - lastCoinAt < 0.7f ? "+10 포인트!" : "코인 1개 = 10포인트", rewardStyle);
+        GUI.Label(new Rect(29, 449, 200, 25), Time.unscaledTime - lastCoinAt < 0.7f ? "+10 포인트!" : "코인 1개 = 10포인트", rewardStyle);
         if (GUI.Button(new Rect(700, 18, 112, 36), "레벨 선택", button)) choosingLevel = !choosingLevel;
         if (GUI.Button(new Rect(824, 18, 122, 36), "다시 시작", button)) LoadLevel(levelNumber);
         GUI.Box(new Rect(180, 496, 600, 32), "");
