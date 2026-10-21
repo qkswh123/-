@@ -10,6 +10,7 @@
 /[Rr]ecordings/
 
 # IDE and machine-specific files.
+/block climb/
 /.vs/
 /.idea/
 /.vscode/
@@ -35,6 +36,8 @@ Thumbs.db
 /*.log
 /*.tmp
 /*.bak
+/*.mov
+/*.mp4
 
 # Local authentication and signing material.
 .env
